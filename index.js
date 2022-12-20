@@ -33,6 +33,7 @@ client.once(Events.ClientReady, (c) => {
 // Log in to Discord with your client's token
 client.login(token);
 
+// Command handler checks if interaction is a slash command and runs command if it is
 client.on(Events.InteractionCreate, async interaction => {
 	if (!interaction.isChatInputCommand()) return;
 
