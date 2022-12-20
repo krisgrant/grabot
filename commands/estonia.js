@@ -5,6 +5,6 @@ module.exports = {
 		.setName('estonia')
 		.setDescription('best country'),
 	async execute(interaction) {
-		await interaction.reply(`EESTI #1 🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪 💯💯💯🔥🔥🔥`);
+		await interaction.reply('EESTI #1 🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪🇪 💯💯💯🔥🔥🔥');
 	},
 };

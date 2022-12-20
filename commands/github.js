@@ -11,7 +11,7 @@ module.exports = {
 			.setColor('#161B22');
 		// interaction.guild is the object representing the Guild in which the command was run
 		await interaction.reply({
-			content : 'This project is on Github! Go check it out!',
+			content: 'This project is on Github! Go check it out!',
 			embeds: [embed],
 		});
 	},
